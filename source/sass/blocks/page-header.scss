@@ -1,0 +1,15 @@
+.page-header {
+  color: white;
+  background-color: $main-green;
+}
+
+.page-header__top {
+  display: flex;
+  align-items: center;
+  padding-top: 28px;
+  padding-bottom: 22px;
+}
+
+.page-header__logo {
+  margin-right: auto;
+}

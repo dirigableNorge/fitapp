@@ -5,49 +5,55 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fit app</title>
   <link rel="stylesheet"href="css/style.css">
+  <link rel="preload" as="font" href="fonts/roboto-regular.woff2">
+  <link rel="preload" as="font" href="fonts/roboto-300.woff2">
+  <link rel="preload" as="font" href="fonts/roboto-700.woff2">
 </head>
 <body>
   <header class="page-header">
-    <div class="page-header__top">
-      <a href="" class="page-header__logo">
-        <img class="page-header__logo-image" src="img/fitapp-logo.png" width="133" height="38" alt="Fitapp logo.">
-      </a>
-      <nav class="nav page-header__nav">
-        <ul class="nav__list">
-          <li class="nav__item">
-            <a href="#" class="nav__link">About</a>
-          </li>
-          <li class="nav__item">
-            <a href="#" class="nav__link">Features</a>
-          </li>
-          <li class="nav__item">
-            <a href="#" class="nav__link">Reviews</a>
-          </li>
-          <li class="nav__item">
-            <a href="#" class="nav__link">Blog</a>
-          </li>
-          <li class="nav__item">
-            <a href="#" class="nav__link">Support</a>
-          </li>
-          <li class="nav__item">
-            <a href="#" class="nav__link">Get App</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-    <div class="intro page-header__intro">
-      <div class="intro__wrapper">
-        <img src="img/app-icon.png" width="111" height="111" alt="Intro icon." class="intro__icon">
-        <h2 class="intro__title"></h2>
-        <p class="intro__text"></p>
-        <a href="#" class="intro__appstore-link">
-          <img src="" alt="" class="intro__icon">
+    <div class="wrapper page-header__wrapper">
+      <div class="page-header__top">
+        <a href="" class="page-header__logo">
+          <img class="page-header__logo-image" src="img/fitapp-logo.png" width="133" height="38" alt="Fitapp logo.">
         </a>
-        <a href="#" class="intro__googleplay-link">
-          <img src="" alt="" class="intro__icon">
-        </a>
+        <nav class="nav page-header__nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Features</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Reviews</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Blog</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Support</a>
+            </li>
+            <li class="nav__item nav__item--accent">
+              <a href="#" class="nav__link">Get App</a>
+            </li>
+          </ul>
+        </nav>
       </div>
-      <img class="intro__image" width="404" height="753" src="img/intro-phone.png" alt="Phone with app.">
+      <div class="intro page-header__intro">
+        <div class="intro__wrapper">
+          <img src="img/app-icon.png" width="111" height="111" alt="Intro icon." class="intro__icon">
+          <h2 class="intro__title">Helps you eat <b>better</b>.</h2>
+          <p class="intro__text">FitApp is a free calorie counting and diet app PSD template which includes
+            high quality 9 screens. This template can be very helpful if you're planning to build food tracking application. </p>
+          <a href="#" class="intro__appstore-link">
+            <img src="" alt="" class="intro__icon">
+          </a>
+          <a href="#" class="intro__googleplay-link">
+            <img src="" alt="" class="intro__icon">
+          </a>
+        </div>
+        <img class="intro__image" width="404" height="753" src="img/intro-phone.png" alt="Phone with app.">
+      </div>
     </div>
   </header>
   <main class="page-main">
@@ -88,7 +94,7 @@
           </div>
         </li>
         <li class="meal-time__item">
-          <img class="meal-time__image" width="138" height="102" src="img/meal-time_2.png" alt="Sandwich.">
+          <img class="meal-time__image" src="img/meal-time_2.png" width="138" height="102" alt="Sandwich.">
           <div class="column">
             <h3 class="meal-time__item-title">Sandwich</h3>
             <p class="meal-time__item-description">Lorem ipsum dolor sit</p>
@@ -101,7 +107,7 @@
           </div>
         </li>
         <li class="meal-time__item">
-          <img class="meal-time__image" width="112" height="62" src="img/meal-time_3.png" alt="Salad with chicken.">
+          <img class="meal-time__image" src="img/meal-time_3.png" width="112" height="62" alt="Salad with chicken.">
           <div class="column">
             <h3 class="meal-time__item-title">Salad with chicken</h3>
             <p class="meal-time__item-description">Lorem ipsum dolor sit</p>
