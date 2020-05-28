@@ -33,13 +33,15 @@
 
 .meal-time__item {
   display: flex;
-  padding: 27px 19px 24px;
+  align-items: center;
+  width: 420px;
+  padding: 19px;
   border-radius: 8px;
   border: 1px solid $border-grey;
   box-shadow: 0px 0px 60px 0px rgba(black, 0.15);
 
   &:not(:last-child) {
-    margin-bottom: 29px;
+    margin-bottom: 28px;
   }
 }
 
@@ -126,6 +128,8 @@
 }
 
 .meal-time__item--accent {
+  width: 525px;
+  padding-top: 13px;
   .meal-time__image {
     margin-right: 13px;
   }

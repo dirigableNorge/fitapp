@@ -1,6 +1,11 @@
 .page-header {
+  padding-bottom: 51px;
   color: white;
   background-color: $main-green;
+  background-image: linear-gradient(white, white);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 100% 51px;
 }
 
 .page-header__top {
