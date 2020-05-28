@@ -1,0 +1,26 @@
+.plan {
+  background-color: $background-grey;
+}
+
+.plan__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 116px;
+}
+
+.plan__title {
+  margin-bottom: 30px;
+}
+
+.plan__text {
+  max-width: 870px;
+  margin: 0;
+  margin-bottom: 111px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.003em;
+  color: $text-grey;
+  text-align: center;
+}
