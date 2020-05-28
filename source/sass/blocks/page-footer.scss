@@ -1,6 +1,22 @@
 .page-footer {
   color: white;
   background-color: $main-green;
+  background-image: url("../img/footer-bg-fruit1.png"),
+                    url("../img/footer-bg-fruit2.png"),
+                    url("../img/footer-bg-fruit3.png"),
+                    url("../img/footer-bg-fruit4.png"),
+                    url("../img/footer-bg-fruit5.png");
+  background-repeat: no-repeat;
+  background-position: left -87px top 55px,
+                       left 285px top 75px,
+                       left 452px bottom -20px,
+                       right 259px top 32px,
+                       right -90px bottom -80px;
+  background-size: 288px 291px,
+                   152px 168px,
+                   111px 134px,
+                   230px 188px,
+                   325px 427px;
 }
 
 .page-footer__wrapper {

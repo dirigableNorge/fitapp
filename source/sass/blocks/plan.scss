@@ -1,5 +1,21 @@
 .plan {
   background-color: $background-grey;
+  background-image: url("../img/plan-bg-fruit1.png"),
+                    url("../img/plan-bg-fruit2.png"),
+                    url("../img/plan-bg-fruit3.png"),
+                    url("../img/plan-bg-fruit4.png");
+  background-repeat:  no-repeat,
+                      no-repeat,
+                      no-repeat,
+                      no-repeat;
+  background-position: left 217px top 338px,
+                       left 380px bottom 47px,
+                       right 310px bottom 36px,
+                       right 272px top 391px;
+  background-size: 188px 193px,
+                   224px 305px,
+                   288px 361px,
+                   145px 138px;
 }
 
 .plan__wrapper {
