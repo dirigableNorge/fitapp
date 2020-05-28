@@ -18,17 +18,23 @@
 
   &:hover,
   &:focus {
-    opacity: 0.7;
+    color: rgba(white, 0.7);
   }
 }
 
 .nav__item--accent {
-  padding: 6px 36px;
-  border-radius: 20px;
-  background-color: white;
   .nav__link {
+    padding: 6px 36px;
     font-weight: 700;
     color: $main-green;
+    border-radius: 20px;
+    background-color: white;
+
+    &:hover,
+    &:focus {
+      color: $main-green;
+      background-color: rgba(white, 0.8);
+    }
   }
 
 }
