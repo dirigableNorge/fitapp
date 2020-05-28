@@ -2,10 +2,30 @@
   padding-bottom: 51px;
   color: white;
   background-color: $main-green;
-  background-image: linear-gradient(white, white);
-  background-repeat: no-repeat;
-  background-position: center bottom;
-  background-size: 100% 51px;
+  background-image: url("../img/header-bg-fruit1.png"),
+                    url("../img/header-bg-fruit2.png"),
+                    url("../img/header-bg-fruit3.png"),
+                    url("../img/header-bg-fruit4.png"),
+                    url("../img/header-bg-fruit5.png"),
+                    linear-gradient(white, white);
+  background-repeat:  no-repeat,
+                      no-repeat,
+                      no-repeat,
+                      no-repeat,
+                      no-repeat,
+                      no-repeat;
+  background-position:  left -149px top 147px,
+                        left 700px top 92px,
+                        center bottom,
+                        right 284px bottom 139px,
+                        right 41px bottom 408px,
+                        center bottom;
+  background-size:  325px 426px,
+                    234px 192px,
+                    155px 185px,
+                    121px 135px,
+                    250px 253px,
+                    100% 51px;
 }
 
 .page-header__top {
