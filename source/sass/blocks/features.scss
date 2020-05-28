@@ -1,0 +1,22 @@
+.features {
+  padding-top: 40px;
+}
+
+.features__wrapper {
+  position: relative;
+  left: -45px;
+  display: flex;
+  align-items: center;
+}
+
+.features__image {
+  margin-right: 40px;
+}
+
+.features__text {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.003em;
+  color: $text-grey;
+}
